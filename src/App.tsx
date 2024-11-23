@@ -6,7 +6,7 @@ import {createContext, useState} from "react";
 import {HeaderContextType} from "./utils/types";
 
 export const HeaderContext = createContext<HeaderContextType>({
-    header: 'Luke Skywalker 1',
+    header: 'Luke Skywalker',
     setHeader: ()=>{}
 })
 
